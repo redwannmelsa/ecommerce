@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #b8b8b8;
+  padding: 10px;
+  /* width: 100%; */
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.links span {
+  margin: 0 5px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  color: #333;
+}
